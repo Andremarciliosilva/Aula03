@@ -7,9 +7,25 @@
 import csv
 dict: list = []
 
-with open('dados.csv', 'r' ) as csvdados:
+# Primeira resolução
+with open('dados.csv', 'r') as csvdados:
+
+    for row in csvdados:
+        if row == 'produto,quantidade,preco\n':
+            continue
+        else:
+            lista = row.split(',')
+            if int(lista[1]) > 0 and float(lista[2]) > 0:
+                print('Dados válidos')
+                break
+            else:
+                print('Dados inválidos')
+                break
+
+# Segunda resolução
+with open('dados.csv', 'r') as csvdados:
     reader = csv.DictReader(csvdados)
-    
+
     for row in reader:
         dict.append(row)
 
@@ -22,3 +38,4 @@ for ch in dict:
     else:
         print('Dados inválidos')
         break
+
