@@ -17,7 +17,7 @@ forem positivos ou "Dados inválidos" caso contrário.
 <div style="text-align: left">
 Imagine que você está trabalhando com dados de sensores IoT. 
 Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
-como 'Baixa', 'Normal' ou 'Alta'. Considerando que:
+como 'Baixa', 'Normal' ou 'Alta'. Considerando que: Baixa = 10 / Normal = 25 / Alta = 30
 </div>
 <br>
 
