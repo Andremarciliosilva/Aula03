@@ -97,3 +97,11 @@ for ch in dict:
 # a R$ 10.000 ou se ocorrer fora do horário comercial (antes das 9h ou depois das 18h). 
 # Dada uma transação como `transacao = {'valor': 12000, 'hora': 20}`, verifique se ela é suspeita.
 
+transacao = {'valor': 10000, 'hora': 8}
+
+if transacao['valor'] > 10000 or transacao['hora'] not in range(9,19):
+    print('Nao ok')
+else:
+    print('OK')
+
+
