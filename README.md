@@ -1,6 +1,8 @@
 ### Aula 03
 
 Este repositório tem por finalidade armazenar os exercícios executados na aula 3.
+Exercícios testados na versão 3.12 do python, para testá-los na sua máquina sugiro que teste um exercício
+de cada vez pra ficar mais fácil de compreender.
 
 
 - [x] **Exercício 1: Verificação de Qualidade de Dados**
