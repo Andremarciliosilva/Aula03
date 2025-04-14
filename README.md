@@ -13,7 +13,7 @@ forem positivos ou "Dados inválidos" caso contrário.
 <br>
 
 
-- [ ] **Exercício 2: Classificação de Dados de Sensor**
+- [x] **Exercício 2: Classificação de Dados de Sensor**
 <div style="text-align: left">
 Imagine que você está trabalhando com dados de sensores IoT. 
 Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
@@ -21,7 +21,7 @@ como 'Baixa', 'Normal' ou 'Alta'. Considerando que: Baixa = 10 / Normal = 25 / A
 </div>
 <br>
 
-- [ ] **Exercício 3: Filtragem de Logs por Severidade**
+- [x] **Exercício 3: Filtragem de Logs por Severidade**
 <div style="text-align: left">
 Você está analisando logs de uma aplicação e precisa filtrar mensagens 
 com severidade 'ERROR'. Dado um registro de log em formato de dicionário 
@@ -30,7 +30,7 @@ escreva um programa que imprima a mensagem se a severidade for 'ERROR'.
 </div>
 <br>
 
-- [ ] **Exercício 4: Validação de Dados de Entrada**
+- [x] **Exercício 4: Validação de Dados de Entrada**
 <div style="text-align: left">
 Antes de processar os dados de usuários em um sistema de recomendação, 
 você precisa garantir que cada usuário tenha idade entre 18 e 65 anos e tenha 
@@ -39,7 +39,7 @@ e imprima "Dados de usuário válidos" ou o erro específico encontrado.
 </div>
 <br>
 
-- [ ] **Exercício 5: Detecção de Anomalias em Dados de Transações**
+- [x] **Exercício 5: Detecção de Anomalias em Dados de Transações**
 <div style="text-align: left">
 Você está trabalhando em um sistema de detecção de fraude e precisa identificar 
 transações suspeitas. Uma transação é considerada suspeita se o valor for superior 
@@ -48,63 +48,63 @@ Dada uma transação como 'ransacao = {'valor': 12000, 'hora': 20}', verifique s
 </div>
 <br>
 
-- [ ] **Exercício 6. Contagem de Palavras em Textos**
+- [x] **Exercício 6. Contagem de Palavras em Textos**
 <div style="text-align: left">
 Objetivo: Dado um texto, contar quantas vezes cada palavra única aparece nele.
 </div>
 <br>
 
-- [ ] **Exercício 7. Normalização de Dados**
+- [x] **Exercício 7. Normalização de Dados**
 <div style="text-align: left">
 Objetivo: Normalizar uma lista de números para que fiquem na escala de 0 a 1.
 </div>
 <br>
 
-- [ ] **Exercício 8. Filtragem de Dados Faltantes**
+- [x] **Exercício 8. Filtragem de Dados Faltantes**
 <div style="text-align: left">
 Objetivo: Dada uma lista de dicionários representando dados de usuários, 
 filtrar aqueles que têm um campo específico faltando.
 </div>
 <br>
 
-- [ ] **Exercício 9. Extração de Subconjuntos de Dados**
+- [x] **Exercício 9. Extração de Subconjuntos de Dados**
 <div style="text-align: left">
 Objetivo: Dada uma lista de números, extrair apenas aqueles que são pares.
 </div>
 <br>
 
-- [ ] **Exercício 10. Agregação de Dados por Categoria**
+- [x] **Exercício 10. Agregação de Dados por Categoria**
 <div style="text-align: left">
 Objetivo: Dado um conjunto de registros de vendas, calcular o total de vendas por categoria.
 </div>
 
 #### Exercícios com WHILE
 
-- [ ] **Exercício 11. Leitura de Dados até Flag**
+- [x] **Exercício 11. Leitura de Dados até Flag**
 <div style="text-align: left">
 Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
 </div>
 <br>
 
-- [ ] **Exercício 12. Validação de Entrada**
+- [x] **Exercício 12. Validação de Entrada**
 <div style="text-align: left">
 Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
 </div>
 <br>
 
-- [ ] **Exercício 13. Consumo de API Simulado**
+- [x] **Exercício 13. Consumo de API Simulado**
 <div style="text-align: left">
 Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
 </div>
 <br>
 
-- [ ] **Exercício 14. Tentativas de Conexão**
+- [x] **Exercício 14. Tentativas de Conexão**
 <div style="text-align: left">
 Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
 </div>
 <br>
 
-- [ ] **Exercício 15. Processamento de Dados com Condição de Parada**
+- [x] **Exercício 15. Processamento de Dados com Condição de Parada**
 <div style="text-align: left">
 Processar itens de uma lista até encontrar um valor específico que indica a parada.
 </div>
