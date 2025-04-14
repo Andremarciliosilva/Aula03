@@ -97,11 +97,136 @@ for ch in dict:
 # a R$ 10.000 ou se ocorrer fora do horário comercial (antes das 9h ou depois das 18h). 
 # Dada uma transação como `transacao = {'valor': 12000, 'hora': 20}`, verifique se ela é suspeita.
 
-transacao = {'valor': 10000, 'hora': 8}
+# transacao = {'valor': 10000, 'hora': 20}
 
-if transacao['valor'] > 10000 or transacao['hora'] not in range(9,19):
-    print('Nao ok')
-else:
-    print('OK')
+# if transacao['valor'] > 10000 or transacao['hora'] not in range(9,19):
+#     print('Nao ok')
+# else:
+#     print('OK')
+
+### Exercício 6. Contagem de Palavras em Textos
+# Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
+
+# texto = "a a a a a raposa marrom salta sobre o o o o cachorro preguiçoso"
+# lista: list = texto.split()
+# contagem_palavras = {}
+
+# print(lista)
+
+# for i in lista:
+#     if i in contagem_palavras:
+#         contagem_palavras[i] += 1
+#     else:
+#         contagem_palavras[i] = 1
+    
+# print(contagem_palavras)
+
+### Exercício 7. Normalização de Dados
+# Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
+
+# numeros = [10, 20, 30, 40, 50]
+# minimo = min(numeros)
+# maximo = max(numeros)
+# normalizados = [(x - minimo) / (maximo - minimo) for x in numeros]
+
+# print(normalizados)
+
+### Exercício 8. Filtragem de Dados Faltantes
+# Objetivo:** Dada uma lista de dicionários representando dados de usuários, filtrar aqueles que têm um campo específico faltando.
+
+# usuarios = [
+#     {"nome": "Alice", "email": "alice@example.com"},
+#     {"nome": "Bob", "email": ""},
+#     {"nome": "Carol", "email": "carol@example.com"}
+# ]
+
+# for d in usuarios:
+#     for k, v in d.items():
+#         if v == '':
+#             print(f'O usuário {d['nome']} tem campo faltando')
 
 
+# Exercício 9. Extração de Subconjuntos de Dados
+# Objetivo: Dada uma lista de números, extrair apenas aqueles que são pares.
+
+# lista: list = range(1,30)
+
+# for n in lista:
+#     if n % 2 == 0:
+#         print(n)
+
+
+# Exercício 10. Agregação de Dados por Categoria.
+# Objetivo: Dado um conjunto de registros de vendas, calcular o total de vendas por categoria.
+
+# vendas = [
+#     {"categoria": "eletrônicos", "valor": 1200},
+#     {"categoria": "livros", "valor": 200},
+#     {"categoria": "eletrônicos", "valor": 800}
+# ]
+
+# vendas_categoria = {}
+
+# for v in vendas:
+#     categoria = v['categoria']
+#     valor = v['valor']
+
+#     if categoria in vendas_categoria:
+#      vendas_categoria[categoria] += valor
+
+#     else:
+#       vendas_categoria[categoria] = valor
+
+# print(vendas_categoria)
+
+# Exercício 11. Leitura de Dados até Flag
+# Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
+
+# while True:
+#     flag = input('Digite algo:')
+#     if flag == 'sair':
+#         break
+
+# Exercício 12. Validação de Entrada.
+# Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+
+# while True:
+
+#     entrada = int(input('Digite um número entre 0 e 10:'))
+#     if entrada in range(0,11):
+#         break
+#     else:
+#         continue
+
+# Exercício 13. Consumo de API Simulado.
+# Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
+
+# pagina_atual = 0
+# paginas_totais = 10
+
+# while pagina_atual <= paginas_totais :
+
+#     print(f'Consumindo pagina {pagina_atual} de {paginas_totais} paginas totais' )
+#     pagina_atual += 1
+
+# Exercício 14. Tentativas de Conexão
+# Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+
+# tentativa = 0
+# limite_tentativas = 15
+
+# while tentativa <= limite_tentativas:
+#     print(f'Tentativa de conexão {tentativa} de {limite_tentativas} tentativas')
+#     tentativa += 1
+
+# Exercício 15. Processamento de Dados com Condição de Parada
+# Processar itens de uma lista até encontrar um valor específico que indica a parada.
+
+# itens = [1, 2, 3, "parar", 4, 5]
+
+# for i in itens:
+#     if i == 'parar':
+#         print('Valor encontrado')
+#         break
+#     else:
+#         print(i)
